@@ -8,7 +8,7 @@
 .deck {
     margin: 25px;
     display: flex;
-    background-color: rgb(22, 22, 206);
+    background-color: rgb(66, 180, 255);
     padding: 25px;
     display: flex;
     flex-wrap: wrap;
@@ -25,7 +25,7 @@ h1 {
     width: 350px;
     height: 500px;
     border-radius: 5px;
-    border: 10px solid rgb(136, 136, 136);
+    border: 10px solid rgb(75, 75, 75);
     padding: 10px;
     padding-top: 0;
     display: flex;
@@ -34,8 +34,12 @@ h1 {
     align-items: center;
 }
 
-.card.grass {
+.card:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
 
+.card.grass {
     background-color: rgb(189, 243, 107);
 }
 
@@ -46,7 +50,7 @@ h1 {
     justify-content: space-between;
     padding: 3px;
     height: 50px;
-    border-bottom: solid rgb(136, 136, 136) 10px;
+    border-bottom: solid rgb(75, 75, 75) 10px;
     align-items: center;
 }
 
