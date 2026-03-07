@@ -3,3 +3,42 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* Style the card */
+.card {
+    width: 300px;
+    height: 400px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+/* Style top of the card */
+.card-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style the image */
+.poke-image {
+    width: 200px;
+}
+
+
+/* Style the pokemon type */
+.poke-type {
+    height: 20px;
+    width: 70px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    padding: ;
+}
+
+.poke-type.grass {
+    background-color: green;
+}
+
+.poke-type.poison {
+    background-color: purple;
+}
