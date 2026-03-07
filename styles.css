@@ -8,8 +8,10 @@
 .deck {
     margin: 25px;
     display: flex;
-    background-color: rgb(47, 47, 255);
+    background-color: rgb(22, 22, 206);
     padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -23,7 +25,7 @@ h1 {
     width: 350px;
     height: 500px;
     border-radius: 5px;
-    border: 10px solid black;
+    border: 10px solid rgb(136, 136, 136);
     padding: 10px;
     padding-top: 0;
     display: flex;
@@ -33,7 +35,7 @@ h1 {
 }
 
 .card.grass {
-    border: solid rgb(233, 233, 3) 10px;
+
     background-color: rgb(189, 243, 107);
 }
 
@@ -44,7 +46,7 @@ h1 {
     justify-content: space-between;
     padding: 3px;
     height: 50px;
-    border-bottom: solid rgb(233, 233, 3) 10px;
+    border-bottom: solid rgb(136, 136, 136) 10px;
     align-items: center;
 }
 
@@ -53,7 +55,7 @@ h1 {
 }
 
 .poke-stage {
-    background-color: rgb(187, 203, 216);
+    background-color: rgb(211, 226, 238);
     height: 30px;
     padding: 5px ;
     border-radius: 40px;
@@ -80,9 +82,8 @@ h1 {
 /* Style the image */
 .poke-image {
     width: 250px;
-    border: 1px solid black;
     border-radius: 3px;
-    background-color: black;   
+  
 }
 
 
