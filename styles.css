@@ -25,7 +25,7 @@ h1 {
     width: 350px;
     height: 500px;
     border-radius: 5px;
-    border: 10px solid rgb(75, 75, 75);
+    border: 10px solid rgb(217, 238, 27);
     padding: 10px;
     padding-top: 0;
     display: flex;
@@ -40,7 +40,11 @@ h1 {
 }
 
 .card.grass {
-    background-color: rgb(189, 243, 107);
+    background-color: rgb(146, 218, 39);
+}
+
+.card.fire {
+    background-color: rgb(236, 104, 81);
 }
 
 /* Style top of the card */
@@ -50,13 +54,15 @@ h1 {
     justify-content: space-between;
     padding: 3px;
     height: 50px;
-    border-bottom: solid rgb(75, 75, 75) 10px;
+    border-bottom: solid  rgb(217, 238, 27) 10px;
     align-items: center;
 }
 
 .grass .card-top {
     background-color: rgb(32, 207, 32);
 }
+
+
 
 .poke-stage {
     background-color: rgb(211, 226, 238);
@@ -81,7 +87,9 @@ h1 {
     background-color: black;
     display: flex;
     justify-content: center;
-}
+    border: solid 10px  rgb(217, 238, 27);
+    box-shadow: 5px 0 3px 2px rgb(61, 61, 61);
+} 
 
 /* Style the image */
 .poke-image {
@@ -107,6 +115,10 @@ h1 {
 
 .poke-type.poison {
     background-color: purple;
+}
+
+.poke-type.fire {
+    background-color: red;
 }
 
 .description {
