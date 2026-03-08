@@ -65,11 +65,15 @@ h1 {
 
 
 .poke-stage {
-    background-color: rgb(211, 226, 238);
+    background: linear-gradient(to right, gray, silver, rgb(211, 226, 238));
     height: 30px;
     padding: 5px ;
     border-radius: 40px;
     text-align: center;
+    box-shadow: 0 0 2px 1px gray;
+    border: 1px solid white;
+    font-style: italic;
+    font-weight: bold;
 }
 
 .poke-name {
