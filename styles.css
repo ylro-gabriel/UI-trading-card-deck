@@ -6,7 +6,8 @@
 }
 
 .deck {
-    margin: 25px;
+    justify-content: center;
+    margin-top: 0;
     display: flex;
     background-color: rgb(66, 180, 255);
     padding: 25px;
@@ -17,7 +18,11 @@
 
 h1 {
     text-align: center;
-    margin: 50px;
+    margin: 0px;
+    padding: 80px;
+    background-color: yellow;
+    color: blue;
+    font-size: 3.1rem;
 }
 
 /* Style the card */
@@ -45,6 +50,10 @@ h1 {
 
 .card.fire {
     background-color: rgb(236, 104, 81);
+}
+
+.card.water {
+    background-color: rgb(28, 148, 204);
 }
 
 /* Style top of the card */
@@ -87,7 +96,7 @@ h1 {
 
 .image-background {
     width: 300px;
-    background-color: black;
+    /* background-color: black; */
     display: flex;
     justify-content: center;
     border: solid 10px  rgb(217, 238, 27);
@@ -97,8 +106,7 @@ h1 {
 /* Style the image */
 .poke-image {
     width: 250px;
-    border-radius: 3px;
-  
+    border-radius: 3px; 
 }
 
 
@@ -110,6 +118,8 @@ h1 {
     text-align: center;
     border-radius: 5px;
     font-size: 0.9rem;
+    border: 1px solid white;
+    padding-top: 1.5px;
 }
 
 .poke-type.grass {
@@ -128,8 +138,12 @@ h1 {
     background: linear-gradient(to bottom, blue, silver);
 }
 
-
+.poke-type.water {
+    background-color: blue;
+}
 
 .description {
     padding-bottom: 50px;
+    width: 290px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
