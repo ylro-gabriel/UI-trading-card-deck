@@ -147,3 +147,7 @@ h1 {
     width: 290px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.poke-icon {
+    align-self: flex-end;
+}
